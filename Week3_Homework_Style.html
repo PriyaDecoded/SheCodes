@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Style</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oooh+Baby&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oooh+Baby&family=Pacifico&family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        width: 1500px;
+      }
+      h1 {
+        color: #f57145;
+        font-family: "Oooh Baby", cursive;
+        font-size: 90px;
+        margin: 5px 5px 5px 20px;
+      }
+
+      h2 {
+        font-size: 20px;
+        font-family: "Poppins", sans-serif;
+        color: black;
+        margin-left: 150px;
+      }
+
+      .topnav {
+        text-align: right;
+        background-color: rgb(242, 204, 204);
+        margin-bottom: 20px;
+      }
+
+      .topnav a {
+        color: black;
+        text-align: center;
+        padding: 10px 25px;
+        text-decoration: none;
+        font-family: "Poppins", sans-serif;
+        display: inline-block;
+      }
+
+      .topnav a:hover {
+        background-color: #f57145;
+        color: aliceblue;
+      }
+
+      h3 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .parent {
+        text-align: center;
+      }
+
+      .leftSection {
+        vertical-align: top;
+        display: inline-block;
+        width: 410px;
+      }
+
+      .rightSection {
+        text-align: left;
+        vertical-align: top;
+        display: inline-block;
+        width: 600px;
+        margin-left: 50px;
+      }
+      #footer {
+        text-align: center;
+        display: inline-block;
+        border: 1px bold black;
+        margin-left: 500px;
+      }
+
+      .tshirt {
+        width: 400px;
+      }
+
+      .designs {
+        display: inline-block;
+        width: 150px;
+        height: 100px;
+        border-radius: 2px;
+        cursor: pointer;
+      }
+
+      .reset {
+        text-align: center;
+        margin-left: 10px ;
+        font-family: "Poppins", sans-serif;
+  
+      }
+
+      .size {
+        margin: 10px;
+        padding: 5px 5px;
+        font-family: "Poppins", sans-serif;
+        background-color: rgb(242, 204, 204);
+        border: none;
+        padding: 10px 16px;
+        line-height: 22px;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+
+      h4 {
+        margin-left: 10px;
+        font-family: "Poppins", sans-serif;
+      }
+
+      .bag {
+        margin: 10px;
+        padding: 5px 5px;
+        font-family: "Poppins", sans-serif;
+        background-color: #459d44;
+        border: none;
+        padding: 10px 30px;
+        line-height: 22px;
+        border-radius: 10px;
+        font-weight: bold;
+        margin-left: 150px;
+        cursor: pointer;;
+      }
+
+      p {
+        font-family: "Poppins", sans-serif;
+        font-size: small;
+      }
+
+      .thank_you {
+        font-family: "Poppins", sans-serif;
+        font-size: large;
+        height: 400px;
+        width: 100%;
+        vertical-align: middle;
+        text-align: center;
+      }
+
+      #tshirt_overlay{
+        position:absolute;
+        left: 350px;
+        top: 350px;
+        width: 150px;
+        height: 100px;
+      }
+      
+      html {
+      scroll-behavior: smooth;
+      }
+
+      #home{
+        background-color: #F8F8F8;
+        height: 200px;
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+        padding-top: 20px;
+        font-size: x-large;
+      }
+
+    </style>
+    <h1>SheCodes Shop</h1>
+    <h2><em>Express who you are with our T-Shirts</em></h2>
+
+    <div class="topnav">
+      <a href="#home">Who we are</a>
+      <a href="#shop">Shop</a>
+      <a href="#contact">Contact Us</a>
+      <a id="subscribe_button" href="#subscribe">Subscribe</a>
+    </div>
+
+    <div class="parent">
+      <div class="leftSection">
+        <img
+          class="tshirt image1"
+          src="https://img.ltwebstatic.com/images3_pi/2021/12/23/1640239990abc86a4f5a46dadef545e572d279990f.webp"
+        />
+        <div id="tshirt_overlay"></div>
+      </div>
+      <div class="rightSection">
+        <div>
+          <h4>Select a graphic to print on the T-Shirt</h4>
+          <br />
+          <img
+            id="image_1"
+            class="designs"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDaZrsWC851AJe7ES5RLQSz66yKjYUNshuRw&usqp=CAU"
+          />
+          <img
+            id="image_2"
+            class="designs"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCGliNbjfit09mFJdeh7LCDRzDfPFtPsfgQg&usqp=CAU"
+          />
+          <img
+            id="image_3"
+            class="designs"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJVrUyCw74xcTlz6ZWbz-SWXbkVGOlkvWkpA&usqp=CAU"
+          />
+          <a class="reset" href="">No Image</a>
+          <br />
+          <br />
+          <p>
+            SheCodes Essentials - Women's Tech stretch short sleeve round neck
+            T-Shirt. <br />
+            Designed to keep you comfortable when coding for long hours.
+          </p>
+          <br />
+          <br />
+          <h4>Select Size</h4>
+          <button class="size">XS</button>
+          <button class="size">S</button>
+          <button class="size">M</button>
+          <button class="size">L</button>
+          <button class="size">XL</button>
+          <br />
+          <br>
+
+          <div>
+            <button class="bag">Add to Bag</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="home">Any fool can write code that a computer can understand. Good programmers write code that humans can understand.” – Martin Fowler</div>
+    </div>
+    <div id="footer">
+      <p>Designed with love - Priya Tahiliani</p>
+      <hr>
+
+    </div>
+
+    <script>
+      function subscribe() {
+        let name = prompt("What is your name?");
+        let email = prompt("What is your email?");
+        let divParent = document.querySelector(".parent");
+        
+        divParent.innerHTML = `
+          <div class="thank_you">
+            Thank you ${name}, we will get in touch with you shortly!
+          </div>
+        `;
+      }
+
+      function overlayImage1() {
+        let divOverlay = document.querySelector("#tshirt_overlay")
+        
+        divOverlay.innerHTML = `
+          <img
+            class="designs"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDaZrsWC851AJe7ES5RLQSz66yKjYUNshuRw&usqp=CAU"
+          />
+        `;
+      }
+      function overlayImage2() {
+        let divOverlay = document.querySelector("#tshirt_overlay")
+        
+        divOverlay.innerHTML = `
+          <img
+            class="designs"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCGliNbjfit09mFJdeh7LCDRzDfPFtPsfgQg&usqp=CAU"
+          />
+        `;
+      }
+      
+      function overlayImage3() {
+        let divOverlay = document.querySelector("#tshirt_overlay")
+        
+        divOverlay.innerHTML = `
+          <img
+            class="designs"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJVrUyCw74xcTlz6ZWbz-SWXbkVGOlkvWkpA&usqp=CAU"
+          />
+        `;
+
+      }
+      let subscribeButton = document.querySelector("#subscribe_button");
+      subscribeButton.addEventListener("click", subscribe);
+
+      let image1Button = document.querySelector("#image_1");
+      image1Button.addEventListener("click", overlayImage1);
+
+      let image2Button = document.querySelector("#image_2");
+      image2Button.addEventListener("click", overlayImage2);
+
+      let image3Button = document.querySelector("#image_3");
+      image3Button.addEventListener("click", overlayImage3);
+
+    </script>
+  </body>
+</html>
